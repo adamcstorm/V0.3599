@@ -78,6 +78,14 @@
         "temp_bucket": 2,
         "timestamp": 1779290986,
         "total": 106
+      },
+      {
+        "phases": {
+          "2": 583
+        },
+        "temp_bucket": 1,
+        "timestamp": 1779315048,
+        "total": 595
       }
     ]
   },
@@ -118,7 +126,7 @@
           "material": "ABS",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 552.2095336914063,
+          "remaining_weight_g": 540.7554321289063,
           "spool_name": "Sunlu ABS - Black",
           "spoolman_id": 173,
           "total_weight_g": 1000.0
@@ -605,10 +613,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.06941257417201996
+        "heat_rate": 1.498653769493103
       },
       "heater_bed": {
-        "heat_rate": 8.544334411621094
+        "heat_rate": 9.14301586151123
       }
     }
   },
