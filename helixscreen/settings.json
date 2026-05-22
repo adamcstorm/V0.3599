@@ -141,21 +141,7 @@
         "hotend": "heater_fan hotend_fan",
         "part": "fan"
       },
-      "filament": {
-        "external_spool": {
-          "assigned": true,
-          "bed_temp": 0,
-          "brand": "Sunlu",
-          "color_rgb": 2500645,
-          "material": "ABS",
-          "nozzle_temp_max": 0,
-          "nozzle_temp_min": 0,
-          "remaining_weight_g": 508.70208740234375,
-          "spool_name": "Sunlu ABS - Black",
-          "spoolman_id": 173,
-          "total_weight_g": 1000.0
-        }
-      },
+      "filament": {},
       "filament_sensors": {
         "master_enabled": true,
         "sensors": [
