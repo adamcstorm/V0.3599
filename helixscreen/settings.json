@@ -4,7 +4,7 @@
     "show_widget_labels": true,
     "toolhead_style": 3
   },
-  "config_version": 16,
+  "config_version": 17,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -110,6 +110,30 @@
         "temp_bucket": 2,
         "timestamp": 1779328950,
         "total": 237
+      },
+      {
+        "phases": {
+          "2": 36
+        },
+        "temp_bucket": 2,
+        "timestamp": 1779594460,
+        "total": 49
+      },
+      {
+        "phases": {
+          "2": 36
+        },
+        "temp_bucket": 2,
+        "timestamp": 1779597791,
+        "total": 47
+      },
+      {
+        "phases": {
+          "2": 57
+        },
+        "temp_bucket": 2,
+        "timestamp": 1779598368,
+        "total": 68
       }
     ]
   },
@@ -141,7 +165,21 @@
         "hotend": "heater_fan hotend_fan",
         "part": "fan"
       },
-      "filament": {},
+      "filament": {
+        "external_spool": {
+          "assigned": true,
+          "bed_temp": 0,
+          "brand": "Sunlu",
+          "color_rgb": 2500645,
+          "material": "ABS",
+          "nozzle_temp_max": 0,
+          "nozzle_temp_min": 0,
+          "remaining_weight_g": 483.09271240234375,
+          "spool_name": "Sunlu ABS - Black",
+          "spoolman_id": 173,
+          "total_weight_g": 1000.0
+        }
+      },
       "filament_sensors": {
         "master_enabled": true,
         "sensors": [
@@ -259,7 +297,7 @@
             "temperature_sensor chamber",
             "temperature_sensor NightOwl-ERB"
           ],
-          "timestamp": "2026-05-20T15:49:01Z"
+          "timestamp": "2026-05-24T03:32:35Z"
         },
         "optional": []
       },
