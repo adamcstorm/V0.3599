@@ -65,14 +65,6 @@
       },
       {
         "phases": {
-          "2": 486
-        },
-        "temp_bucket": 2,
-        "timestamp": 1779140243,
-        "total": 498
-      },
-      {
-        "phases": {
           "2": 170
         },
         "temp_bucket": 2,
@@ -134,6 +126,22 @@
         "temp_bucket": 2,
         "timestamp": 1779598368,
         "total": 68
+      },
+      {
+        "phases": {
+          "2": 36
+        },
+        "temp_bucket": 2,
+        "timestamp": 1779670799,
+        "total": 49
+      },
+      {
+        "phases": {
+          "2": 38
+        },
+        "temp_bucket": 2,
+        "timestamp": 1779683657,
+        "total": 51
       }
     ]
   },
@@ -174,7 +182,7 @@
           "material": "ABS",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 462.9638366699219,
+          "remaining_weight_g": 441.6344299316406,
           "spool_name": "Sunlu ABS - Black",
           "spoolman_id": 173,
           "total_weight_g": 1000.0
