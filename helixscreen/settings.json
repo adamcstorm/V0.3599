@@ -65,14 +65,6 @@
       },
       {
         "phases": {
-          "2": 94
-        },
-        "temp_bucket": 2,
-        "timestamp": 1779290986,
-        "total": 106
-      },
-      {
-        "phases": {
           "2": 84
         },
         "temp_bucket": 2,
@@ -142,6 +134,14 @@
         "temp_bucket": 2,
         "timestamp": 1779687732,
         "total": 211
+      },
+      {
+        "phases": {
+          "2": 122
+        },
+        "temp_bucket": 2,
+        "timestamp": 1779858565,
+        "total": 134
       }
     ]
   },
@@ -173,7 +173,21 @@
         "hotend": "heater_fan hotend_fan",
         "part": "fan"
       },
-      "filament": {},
+      "filament": {
+        "external_spool": {
+          "assigned": true,
+          "bed_temp": 0,
+          "brand": "Sunlu",
+          "color_rgb": 2500645,
+          "material": "ABS",
+          "nozzle_temp_max": 0,
+          "nozzle_temp_min": 0,
+          "remaining_weight_g": 418.7110900878906,
+          "spool_name": "Sunlu ABS - Black",
+          "spoolman_id": 173,
+          "total_weight_g": 1000.0
+        }
+      },
       "filament_sensors": {
         "master_enabled": true,
         "sensors": [
@@ -655,7 +669,7 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.08031969517469406
+        "heat_rate": 0.06544004380702972
       },
       "heater_bed": {
         "heat_rate": 9.030448913574219
