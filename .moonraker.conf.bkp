@@ -131,9 +131,3 @@ is_system_service = False
 info_tags = 
 	desc=AFC Klipper Add On
 
-[update_manager helixscreen]
-type = web
-channel = stable
-repo = prestonbrown/helixscreen
-path = /home/astorm/helixscreen
-
