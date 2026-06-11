@@ -110,13 +110,6 @@ origin: https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
 managed_services: klipper
 primary_branch: main
 
-# Crowsnest update_manager entry
-[update_manager crowsnest]
-type: git_repo
-path: ~/crowsnest
-origin: https://github.com/mainsail-crew/crowsnest.git
-managed_services: crowsnest
-install_script: tools/pkglist.sh
 
 [update_manager timelapse]
 type: git_repo
@@ -136,17 +129,38 @@ system_dependencies: system-dependencies.json
 primary_branch: main
 managed_services: klipper
 
-[update_manager klipper_auto_speed]
+# Sonar update_manager entry
+[update_manager sonar]
 type: git_repo
-path: ~/klipper_auto_speed
-origin: https://github.com/anonoei/klipper_auto_speed.git
+path: ~/sonar
+origin: https://github.com/mainsail-crew/sonar.git
 primary_branch: main
-install_script: install.sh
-managed_services: klipper
+managed_services: sonar
+system_dependencies: resources/system-dependencies.json
 
-[update_manager update_klipper_and_mcus]
+
+[update_manager afc-software]
 type: git_repo
+path: ~/AFC-Klipper-Add-On
+origin: https://github.com/ArmoredTurtle/AFC-Klipper-Add-On.git
+managed_services: klipper
 primary_branch: main
-path: ~/ukam
-origin: https://github.com/fbeauKmi/update_klipper_and_mcus.git
 is_system_service: False
+info_tags:
+    desc=AFC Klipper Add On
+
+# NOTE: type: web is used instead of type: zip as a workaround for
+# mainsail-crew/mainsail#2444 (zip type always shows UP-TO-DATE).
+# A systemd path unit handles service restart after Moonraker extracts the update.
+
+# NOTE: type: web is used instead of type: zip as a workaround for
+# mainsail-crew/mainsail#2444 (zip type always shows UP-TO-DATE).
+# A systemd path unit handles service restart after Moonraker extracts the update.
+
+# NOTE: type: web is used instead of type: zip as a workaround for
+# mainsail-crew/mainsail#2444 (zip type always shows UP-TO-DATE).
+# A systemd path unit handles service restart after Moonraker extracts the update.
+
+# NOTE: type: web is used instead of type: zip as a workaround for
+# mainsail-crew/mainsail#2444 (zip type always shows UP-TO-DATE).
+# A systemd path unit handles service restart after Moonraker extracts the update.

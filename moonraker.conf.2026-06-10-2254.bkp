@@ -110,6 +110,13 @@ origin: https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
 managed_services: klipper
 primary_branch: main
 
+# Crowsnest update_manager entry
+[update_manager crowsnest]
+type: git_repo
+path: ~/crowsnest
+origin: https://github.com/mainsail-crew/crowsnest.git
+managed_services: crowsnest
+install_script: tools/pkglist.sh
 
 [update_manager timelapse]
 type: git_repo
@@ -164,12 +171,3 @@ info_tags:
 # NOTE: type: web is used instead of type: zip as a workaround for
 # mainsail-crew/mainsail#2444 (zip type always shows UP-TO-DATE).
 # A systemd path unit handles service restart after Moonraker extracts the update.
-[update_manager crowsnest]
-type: git_repo
-path: ~/crowsnest
-origin: https://github.com/mainsail-crew/crowsnest.git
-primary_branch: v5
-managed_services: crowsnest
-system_dependencies: system-dependencies.json
-virtualenv: ~/crowsnest-env
-requirements: requirements.txt

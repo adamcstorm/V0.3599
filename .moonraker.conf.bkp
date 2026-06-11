@@ -89,13 +89,6 @@ origin = https://github.com/kyleisah/Klipper-Adaptive-Meshing-Purging.git
 managed_services = klipper
 primary_branch = main
 
-[update_manager crowsnest]
-type = git_repo
-path = ~/crowsnest
-origin = https://github.com/mainsail-crew/crowsnest.git
-managed_services = crowsnest
-install_script = tools/pkglist.sh
-
 [update_manager timelapse]
 type = git_repo
 primary_branch = main
@@ -130,4 +123,14 @@ primary_branch = main
 is_system_service = False
 info_tags = 
 	desc=AFC Klipper Add On
+
+[update_manager crowsnest]
+type = git_repo
+path = ~/crowsnest
+origin = https://github.com/mainsail-crew/crowsnest.git
+primary_branch = v5
+managed_services = crowsnest
+system_dependencies = system-dependencies.json
+virtualenv = ~/crowsnest-env
+requirements = requirements.txt
 
