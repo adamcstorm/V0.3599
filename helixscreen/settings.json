@@ -257,7 +257,7 @@
                 },
                 {
                   "col": 0,
-                  "colspan": 2,
+                  "colspan": 3,
                   "enabled": true,
                   "id": "print_status",
                   "row": 2,
@@ -265,14 +265,14 @@
                 },
                 {
                   "col": 2,
-                  "colspan": 2,
+                  "colspan": 4,
                   "enabled": false,
                   "id": "tips",
                   "row": 0,
                   "rowspan": 2
                 },
                 {
-                  "col": 2,
+                  "col": 3,
                   "colspan": 1,
                   "enabled": true,
                   "id": "temperature",
@@ -320,14 +320,6 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 2,
-                  "colspan": 1,
-                  "enabled": true,
-                  "id": "ams",
-                  "row": 3,
-                  "rowspan": 1
-                },
-                {
                   "col": -1,
                   "colspan": 1,
                   "enabled": false,
@@ -336,11 +328,11 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 3,
+                  "col": 5,
                   "colspan": 1,
-                  "enabled": true,
+                  "enabled": false,
                   "id": "led",
-                  "row": 3,
+                  "row": 2,
                   "rowspan": 1
                 },
                 {
@@ -352,7 +344,7 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 4,
+                  "col": 3,
                   "colspan": 1,
                   "enabled": true,
                   "id": "fan_stack",
@@ -374,6 +366,14 @@
                   "id": "nozzle_temps",
                   "row": -1,
                   "rowspan": 2
+                },
+                {
+                  "col": 5,
+                  "colspan": 1,
+                  "enabled": true,
+                  "id": "chamber_temperature",
+                  "row": 2,
+                  "rowspan": 1
                 },
                 {
                   "col": -1,
@@ -400,19 +400,27 @@
                   "rowspan": 2
                 },
                 {
-                  "col": -1,
+                  "col": 2,
                   "colspan": 3,
-                  "enabled": false,
+                  "enabled": true,
                   "id": "preheat",
-                  "row": -1,
+                  "row": 1,
                   "rowspan": 1
                 },
                 {
-                  "col": -1,
+                  "col": 4,
                   "colspan": 1,
-                  "enabled": false,
+                  "enabled": true,
+                  "id": "ams",
+                  "row": 3,
+                  "rowspan": 1
+                },
+                {
+                  "col": 2,
+                  "colspan": 2,
+                  "enabled": true,
                   "id": "active_spool",
-                  "row": -1,
+                  "row": 0,
                   "rowspan": 1
                 },
                 {
@@ -475,6 +483,14 @@
                   "col": -1,
                   "colspan": 2,
                   "enabled": false,
+                  "id": "control_buttons",
+                  "row": -1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 2,
+                  "enabled": false,
                   "id": "job_queue",
                   "row": -1,
                   "rowspan": 2
@@ -520,27 +536,11 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 2,
+                  "col": 4,
                   "colspan": 1,
-                  "enabled": false,
+                  "enabled": true,
                   "id": "bed_temperature",
-                  "row": 3,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "chamber_temperature",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 2,
-                  "enabled": false,
-                  "id": "control_buttons",
-                  "row": -1,
+                  "row": 2,
                   "rowspan": 1
                 }
               ]
