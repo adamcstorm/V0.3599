@@ -144,3 +144,9 @@ primary_branch = master
 managed_services = moonraker
 install_script = klipper-plugin/update.sh
 
+[update_manager helixscreen]
+type = web
+channel = stable
+repo = prestonbrown/helixscreen
+path = /home/astorm/helixscreen
+
