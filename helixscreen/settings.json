@@ -23,12 +23,12 @@
   },
   "input": {
     "calibration": {
-      "a": 0.9996423125267029,
-      "b": -0.022255487740039825,
-      "c": -2.507185220718384,
-      "d": 0.016572389751672745,
-      "e": 1.0311709642410278,
-      "f": -19.500354766845703,
+      "a": 1.010857343673706,
+      "b": -0.007487832102924585,
+      "c": -11.606138229370117,
+      "d": -0.00371717382222414,
+      "e": 1.0296571254730225,
+      "f": -15.745680809020996,
       "recheck_pending": false,
       "swap_axes": false,
       "valid": true
@@ -42,6 +42,37 @@
   "log_path": "/tmp/helixscreen.log",
   "motion": {
     "jog_mode": 1
+  },
+  "print_start_history": {
+    "entries": [
+      {
+        "phases": {
+          "2": 43
+        },
+        "temp_bucket": 2,
+        "timestamp": 1787446419,
+        "total": 55,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 36
+        },
+        "temp_bucket": 2,
+        "timestamp": 1787448948,
+        "total": 47,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 83
+        },
+        "temp_bucket": 2,
+        "timestamp": 1787455481,
+        "total": 95,
+        "window": 1
+      }
+    ]
   },
   "printers": {
     "default": {
@@ -82,7 +113,7 @@
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
           "product_name": "",
-          "remaining_weight_g": 765.1259765625,
+          "remaining_weight_g": 721.210693359375,
           "spool_name": "Black",
           "spoolman_id": 201,
           "total_weight_g": 1000.0
@@ -201,7 +232,7 @@
             "temperature_sensor chamber_bottom",
             "temperature_sensor NightOwl-ERB"
           ],
-          "timestamp": "2026-08-21T01:02:43Z"
+          "timestamp": "2026-08-23T00:35:31Z"
         },
         "optional": [
           "fan_generic bed_fan",
