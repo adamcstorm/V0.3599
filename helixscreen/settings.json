@@ -3,7 +3,7 @@
   "ams": {
     "afc_upgrade_notice_shown": true
   },
-  "config_version": 21,
+  "config_version": 23,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -23,12 +23,12 @@
   },
   "input": {
     "calibration": {
-      "a": 1.010857343673706,
-      "b": -0.007487832102924585,
-      "c": -11.606138229370117,
-      "d": -0.00371717382222414,
-      "e": 1.0296571254730225,
-      "f": -15.745680809020996,
+      "a": 1.0332655906677246,
+      "b": 0.014974863268435001,
+      "c": -18.20301628112793,
+      "d": 0.0037169749848544598,
+      "e": 1.0073002576828003,
+      "f": -26.37397003173828,
       "recheck_pending": false,
       "swap_axes": false,
       "valid": true
@@ -149,7 +149,7 @@
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
           "product_name": "",
-          "remaining_weight_g": 595.9404296875,
+          "remaining_weight_g": 594.3556518554688,
           "spool_name": "Black",
           "spoolman_id": 201,
           "total_weight_g": 1000.0
@@ -268,7 +268,7 @@
             "temperature_sensor chamber_bottom",
             "temperature_sensor NightOwl-ERB"
           ],
-          "timestamp": "2026-08-23T00:35:31Z"
+          "timestamp": "2026-09-13T05:51:29Z"
         },
         "optional": [
           "fan_generic bed_fan",
@@ -281,6 +281,12 @@
         "hotend": "extruder"
       },
       "leds": {
+        "auto_paired_bases": [
+          "SET_BED_LEDS",
+          "SET_LOGO_LEDS",
+          "SET_NOZZLE_LEDS",
+          "SET_TOP_LEDS"
+        ],
         "color_presets": [
           "#FFFFFF",
           "#FFD700",
@@ -295,7 +301,40 @@
         "last_color": "#FFFFFF",
         "last_white": 0.0,
         "led_on_at_start": false,
-        "macro_devices": [],
+        "macro_devices": [
+          {
+            "name": "Set Logo Leds",
+            "off_macro": "SET_LOGO_LEDS_OFF",
+            "on_macro": "SET_LOGO_LEDS_ON",
+            "presets": [],
+            "toggle_macro": "",
+            "type": "on_off"
+          },
+          {
+            "name": "Set Nozzle Leds",
+            "off_macro": "SET_NOZZLE_LEDS_OFF",
+            "on_macro": "SET_NOZZLE_LEDS_ON",
+            "presets": [],
+            "toggle_macro": "",
+            "type": "on_off"
+          },
+          {
+            "name": "Set Bed Leds",
+            "off_macro": "SET_BED_LEDS_OFF",
+            "on_macro": "SET_BED_LEDS_ON",
+            "presets": [],
+            "toggle_macro": "",
+            "type": "on_off"
+          },
+          {
+            "name": "Set Top Leds",
+            "off_macro": "SET_TOP_LEDS_OFF",
+            "on_macro": "SET_TOP_LEDS_ON",
+            "presets": [],
+            "toggle_macro": "",
+            "type": "on_off"
+          }
+        ],
         "selected": [],
         "selected_strips": [
           "neopixel top"
