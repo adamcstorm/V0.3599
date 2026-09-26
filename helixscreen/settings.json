@@ -107,6 +107,15 @@
         "timestamp": 1788135852,
         "total": 49,
         "window": 1
+      },
+      {
+        "phases": {
+          "2": 48
+        },
+        "temp_bucket": 2,
+        "timestamp": 1790396691,
+        "total": 60,
+        "window": 1
       }
     ]
   },
@@ -149,7 +158,7 @@
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
           "product_name": "",
-          "remaining_weight_g": 489.74176025390625,
+          "remaining_weight_g": 487.87689208984375,
           "spool_name": "Black",
           "spoolman_id": 201,
           "total_weight_g": 1000.0
@@ -268,7 +277,7 @@
             "temperature_sensor chamber_bottom",
             "temperature_sensor NightOwl-ERB"
           ],
-          "timestamp": "2026-09-13T05:51:29Z"
+          "timestamp": "2026-09-26T00:21:26Z"
         },
         "optional": [
           "fan_generic bed_fan",
