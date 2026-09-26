@@ -116,6 +116,15 @@
         "timestamp": 1790396691,
         "total": 60,
         "window": 1
+      },
+      {
+        "phases": {
+          "2": 36
+        },
+        "temp_bucket": 2,
+        "timestamp": 1790431385,
+        "total": 48,
+        "window": 1
       }
     ]
   },
@@ -158,7 +167,7 @@
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
           "product_name": "",
-          "remaining_weight_g": 487.87689208984375,
+          "remaining_weight_g": 456.4515075683594,
           "spool_name": "Black",
           "spoolman_id": 201,
           "total_weight_g": 1000.0
