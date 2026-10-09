@@ -3,19 +3,23 @@
   "ams": {
     "afc_upgrade_notice_shown": true
   },
+  "brightness": 80,
   "config_version": 23,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
     "dim_brightness": 30,
-    "dim_sec": 600,
+    "dim_sec": 0,
     "drm_device": "",
     "gcode_render_mode": 0,
     "gpu_3d_blocked": false,
     "gpu_blur_blocked": false,
     "rotate": 180,
     "rotation_probed": true,
-    "sleep_sec": 1200
+    "screensaver_type": 0,
+    "sleep_sec": 1800,
+    "sleep_while_printing": false,
+    "timezone": "America/Chicago"
   },
   "gcode_viewer": {
     "shading_model": "phong",
@@ -23,12 +27,12 @@
   },
   "input": {
     "calibration": {
-      "a": 1.0087265968322754,
-      "b": -0.03134981915354729,
-      "c": -7.058980941772461,
-      "d": 0.009154674597084522,
-      "e": 1.0161688327789307,
-      "f": -37.292057037353516,
+      "a": 1.0198116302490234,
+      "b": 0.024688176810741425,
+      "c": -19.543275833129883,
+      "d": -0.009427627548575401,
+      "e": 1.0351535081863403,
+      "f": -23.849655151367188,
       "recheck_pending": false,
       "rotation": 180,
       "swap_axes": false,
@@ -49,37 +53,6 @@
   },
   "print_start_history": {
     "entries": [
-      {
-        "phases": {
-          "8": 3,
-          "9": 14
-        },
-        "temp_bucket": 1,
-        "timestamp": 1791041450,
-        "total": 180,
-        "window": 1
-      },
-      {
-        "phases": {
-          "8": 4,
-          "9": 14
-        },
-        "temp_bucket": 1,
-        "timestamp": 1791062999,
-        "total": 201,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 34,
-          "8": 27,
-          "9": 14
-        },
-        "temp_bucket": 1,
-        "timestamp": 1791168119,
-        "total": 265,
-        "window": 1
-      },
       {
         "phases": {
           "2": 36
@@ -176,6 +149,48 @@
         "timestamp": 1791168489,
         "total": 66,
         "window": 1
+      },
+      {
+        "phases": {
+          "8": 3,
+          "9": 14
+        },
+        "temp_bucket": 1,
+        "timestamp": 1791041450,
+        "total": 180,
+        "window": 1
+      },
+      {
+        "phases": {
+          "8": 4,
+          "9": 14
+        },
+        "temp_bucket": 1,
+        "timestamp": 1791062999,
+        "total": 201,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 34,
+          "8": 27,
+          "9": 14
+        },
+        "temp_bucket": 1,
+        "timestamp": 1791168119,
+        "total": 265,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 7,
+          "8": 27,
+          "9": 19
+        },
+        "temp_bucket": 1,
+        "timestamp": 1791508638,
+        "total": 207,
+        "window": 1
       }
     ]
   },
@@ -218,7 +233,7 @@
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
           "product_name": "",
-          "remaining_weight_g": 415.9015197753906,
+          "remaining_weight_g": 415.7138977050781,
           "spool_name": "Black",
           "spoolman_id": 201,
           "total_weight_g": 1000.0
@@ -741,10 +756,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.5274558663368225
+        "heat_rate": 1.294399380683899
       },
       "heater_bed": {
-        "heat_rate": 6.650335788726807
+        "heat_rate": 6.232517242431641
       }
     }
   },
