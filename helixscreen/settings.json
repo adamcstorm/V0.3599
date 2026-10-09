@@ -55,11 +55,44 @@
     "entries": [
       {
         "phases": {
-          "2": 36
+          "8": 3,
+          "9": 14
         },
-        "temp_bucket": 2,
-        "timestamp": 1790559136,
-        "total": 48,
+        "temp_bucket": 1,
+        "timestamp": 1791041450,
+        "total": 180,
+        "window": 1
+      },
+      {
+        "phases": {
+          "8": 4,
+          "9": 14
+        },
+        "temp_bucket": 1,
+        "timestamp": 1791062999,
+        "total": 201,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 34,
+          "8": 27,
+          "9": 14
+        },
+        "temp_bucket": 1,
+        "timestamp": 1791168119,
+        "total": 265,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 7,
+          "8": 27,
+          "9": 19
+        },
+        "temp_bucket": 1,
+        "timestamp": 1791508638,
+        "total": 207,
         "window": 1
       },
       {
@@ -152,44 +185,13 @@
       },
       {
         "phases": {
-          "8": 3,
-          "9": 14
-        },
-        "temp_bucket": 1,
-        "timestamp": 1791041450,
-        "total": 180,
-        "window": 1
-      },
-      {
-        "phases": {
-          "8": 4,
-          "9": 14
-        },
-        "temp_bucket": 1,
-        "timestamp": 1791062999,
-        "total": 201,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 34,
-          "8": 27,
-          "9": 14
-        },
-        "temp_bucket": 1,
-        "timestamp": 1791168119,
-        "total": 265,
-        "window": 1
-      },
-      {
-        "phases": {
           "2": 7,
           "8": 27,
           "9": 19
         },
-        "temp_bucket": 1,
-        "timestamp": 1791508638,
-        "total": 207,
+        "temp_bucket": 2,
+        "timestamp": 1791523999,
+        "total": 142,
         "window": 1
       }
     ]
@@ -233,7 +235,7 @@
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
           "product_name": "",
-          "remaining_weight_g": 415.7138977050781,
+          "remaining_weight_g": 415.9015197753906,
           "spool_name": "Black",
           "spoolman_id": 201,
           "total_weight_g": 1000.0
@@ -352,7 +354,7 @@
             "temperature_sensor chamber_bottom",
             "temperature_sensor NightOwl-ERB"
           ],
-          "timestamp": "2026-09-28T22:40:30Z"
+          "timestamp": "2026-10-09T05:29:12Z"
         },
         "optional": [
           "fan_generic bed_fan",
@@ -759,7 +761,7 @@
         "heat_rate": 1.294399380683899
       },
       "heater_bed": {
-        "heat_rate": 6.232517242431641
+        "heat_rate": 5.736310958862305
       }
     }
   },
