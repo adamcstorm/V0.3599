@@ -124,16 +124,6 @@ is_system_service = False
 info_tags = 
 	desc=AFC Klipper Add On
 
-[update_manager crowsnest]
-type = git_repo
-path = ~/crowsnest
-origin = https://github.com/mainsail-crew/crowsnest.git
-primary_branch = v5
-managed_services = crowsnest
-system_dependencies = system-dependencies.json
-virtualenv = ~/crowsnest-env
-requirements = requirements.txt
-
 [moongate]
 
 [update_manager moongate]

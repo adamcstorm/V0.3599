@@ -110,16 +110,6 @@
           "9": 14
         },
         "temp_bucket": 2,
-        "timestamp": 1791078626,
-        "total": 71,
-        "window": 1
-      },
-      {
-        "phases": {
-          "8": 4,
-          "9": 14
-        },
-        "temp_bucket": 2,
         "timestamp": 1791082218,
         "total": 106,
         "window": 1
@@ -204,6 +194,15 @@
         "timestamp": 1792447646,
         "total": 115,
         "window": 1
+      },
+      {
+        "phases": {
+          "2": 45
+        },
+        "temp_bucket": 2,
+        "timestamp": 1792455193,
+        "total": 55,
+        "window": 1
       }
     ]
   },
@@ -246,7 +245,7 @@
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
           "product_name": "",
-          "remaining_weight_g": 395.1363525390625,
+          "remaining_weight_g": 363.51837158203125,
           "spool_name": "Black",
           "spoolman_id": 201,
           "total_weight_g": 1000.0
@@ -365,7 +364,7 @@
             "temperature_sensor chamber_bottom",
             "temperature_sensor NightOwl-ERB"
           ],
-          "timestamp": "2026-10-11T20:17:24Z"
+          "timestamp": "2026-10-20T04:25:50Z"
         },
         "optional": [
           "fan_generic bed_fan",
