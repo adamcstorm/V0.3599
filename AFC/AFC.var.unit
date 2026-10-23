@@ -20,7 +20,7 @@
             "remember_spool": false,
             "spool_id": 201,
             "color": "#262825",
-            "weight": 363.5183682336916,
+            "weight": 361.89490168056136,
             "extruder_temp": null,
             "runout_lane": null,
             "filament_status": "Ready",
@@ -68,7 +68,7 @@
         "num_extruders": 1,
         "extruders": {
             "extruder": {
-                "lane_loaded": null
+                "lane_loaded": ""
             }
         },
         "bypass": {
