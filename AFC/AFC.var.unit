@@ -20,12 +20,12 @@
             "remember_spool": false,
             "spool_id": 217,
             "color": "#B4F97B",
-            "weight": 960.0303665884647,
+            "weight": 939.8056608159596,
             "extruder_temp": null,
             "runout_lane": null,
             "filament_status": "Ready",
             "filament_status_led": "#007f00",
-            "status": "None",
+            "status": "Loaded",
             "dist_hub": 82.03,
             "td1_data": {},
             "endstops": "load,hub,tool_start,buffer_advance,buffer_trailing"
@@ -68,7 +68,7 @@
         "num_extruders": 1,
         "extruders": {
             "extruder": {
-                "lane_loaded": ""
+                "lane_loaded": null
             }
         },
         "bypass": {
