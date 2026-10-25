@@ -55,25 +55,6 @@
     "entries": [
       {
         "phases": {
-          "2": 26,
-          "8": 27
-        },
-        "temp_bucket": 1,
-        "timestamp": 1792039601,
-        "total": 229,
-        "window": 1
-      },
-      {
-        "phases": {
-          "8": 3
-        },
-        "temp_bucket": 1,
-        "timestamp": 1792125210,
-        "total": 189,
-        "window": 1
-      },
-      {
-        "phases": {
           "2": 48,
           "8": 26
         },
@@ -104,31 +85,21 @@
       },
       {
         "phases": {
-          "2": 27,
+          "2": 49,
           "8": 27
         },
-        "temp_bucket": 2,
-        "timestamp": 1792814755,
-        "total": 109,
+        "temp_bucket": 1,
+        "timestamp": 1792887734,
+        "total": 237,
         "window": 1
       },
       {
         "phases": {
-          "8": 3
+          "8": 4
         },
-        "temp_bucket": 2,
-        "timestamp": 1792815283,
-        "total": 39,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 26,
-          "8": 27
-        },
-        "temp_bucket": 2,
-        "timestamp": 1792817955,
-        "total": 108,
+        "temp_bucket": 1,
+        "timestamp": 1792900482,
+        "total": 151,
         "window": 1
       },
       {
@@ -195,6 +166,33 @@
         "timestamp": 1792881145,
         "total": 159,
         "window": 1
+      },
+      {
+        "phases": {
+          "8": 4
+        },
+        "temp_bucket": 2,
+        "timestamp": 1792893422,
+        "total": 98,
+        "window": 1
+      },
+      {
+        "phases": {
+          "8": 4
+        },
+        "temp_bucket": 2,
+        "timestamp": 1792901477,
+        "total": 100,
+        "window": 1
+      },
+      {
+        "phases": {
+          "8": 3
+        },
+        "temp_bucket": 2,
+        "timestamp": 1792903875,
+        "total": 137,
+        "window": 1
       }
     ]
   },
@@ -237,7 +235,7 @@
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
           "product_name": "",
-          "remaining_weight_g": 354.5830383300781,
+          "remaining_weight_g": 359.17327880859375,
           "spool_name": "Black",
           "spoolman_id": 201,
           "total_weight_g": 1000.0
@@ -760,10 +758,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.17675387859344482
+        "heat_rate": 0.31330913305282593
       },
       "heater_bed": {
-        "heat_rate": 5.175201892852783
+        "heat_rate": 5.381771564483643
       }
     }
   },
