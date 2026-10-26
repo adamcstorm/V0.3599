@@ -55,16 +55,6 @@
     "entries": [
       {
         "phases": {
-          "2": 49,
-          "8": 27
-        },
-        "temp_bucket": 1,
-        "timestamp": 1792887734,
-        "total": 237,
-        "window": 1
-      },
-      {
-        "phases": {
           "8": 4
         },
         "temp_bucket": 1,
@@ -103,77 +93,12 @@
       },
       {
         "phases": {
-          "8": 3
-        },
-        "temp_bucket": 2,
-        "timestamp": 1792903875,
-        "total": 137,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 49,
-          "8": 27
-        },
-        "temp_bucket": 2,
-        "timestamp": 1792906367,
-        "total": 129,
-        "window": 1
-      },
-      {
-        "phases": {
-          "8": 3
-        },
-        "temp_bucket": 2,
-        "timestamp": 1792906466,
-        "total": 52,
-        "window": 1
-      },
-      {
-        "phases": {
-          "8": 3
-        },
-        "temp_bucket": 2,
-        "timestamp": 1792950724,
-        "total": 140,
-        "window": 1
-      },
-      {
-        "phases": {
           "2": 48,
-          "8": 27
+          "8": 26
         },
-        "temp_bucket": 2,
-        "timestamp": 1792954530,
-        "total": 143,
-        "window": 1
-      },
-      {
-        "phases": {
-          "8": 5
-        },
-        "temp_bucket": 2,
-        "timestamp": 1792958169,
-        "total": 79,
-        "window": 1
-      },
-      {
-        "phases": {
-          "8": 4
-        },
-        "temp_bucket": 2,
-        "timestamp": 1792961744,
-        "total": 77,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 26,
-          "8": 27
-        },
-        "temp_bucket": 2,
-        "timestamp": 1792965373,
-        "total": 113,
+        "temp_bucket": 1,
+        "timestamp": 1793037142,
+        "total": 259,
         "window": 1
       },
       {
@@ -192,6 +117,81 @@
         "temp_bucket": 2,
         "timestamp": 1792983713,
         "total": 92,
+        "window": 1
+      },
+      {
+        "phases": {
+          "8": 3
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793037599,
+        "total": 62,
+        "window": 1
+      },
+      {
+        "phases": {
+          "8": 3
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793041054,
+        "total": 74,
+        "window": 1
+      },
+      {
+        "phases": {
+          "8": 3
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793044621,
+        "total": 77,
+        "window": 1
+      },
+      {
+        "phases": {
+          "8": 3
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793047888,
+        "total": 82,
+        "window": 1
+      },
+      {
+        "phases": {
+          "8": 4
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793051698,
+        "total": 88,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 26,
+          "8": 27
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793052991,
+        "total": 135,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 26,
+          "8": 27
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793054185,
+        "total": 137,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 26,
+          "8": 28
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793054342,
+        "total": 77,
         "window": 1
       }
     ]
@@ -235,7 +235,7 @@
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
           "product_name": "",
-          "remaining_weight_g": 361.8948974609375,
+          "remaining_weight_g": 358.7680358886719,
           "spool_name": "Black",
           "spoolman_id": 201,
           "total_weight_g": 1000.0
@@ -758,10 +758,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.2003166824579239
+        "heat_rate": 0.21338094770908356
       },
       "heater_bed": {
-        "heat_rate": 8.46461009979248
+        "heat_rate": 5.907718181610107
       }
     }
   },
