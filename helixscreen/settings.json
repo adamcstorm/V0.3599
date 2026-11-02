@@ -55,97 +55,6 @@
     "entries": [
       {
         "phases": {
-          "2": 48,
-          "8": 27
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793421033,
-        "total": 162,
-        "window": 1
-      },
-      {
-        "phases": {
-          "8": 4
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793424554,
-        "total": 78,
-        "window": 1
-      },
-      {
-        "phases": {
-          "8": 3
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793454723,
-        "total": 43,
-        "window": 1
-      },
-      {
-        "phases": {
-          "8": 3
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793458316,
-        "total": 79,
-        "window": 1
-      },
-      {
-        "phases": {
-          "8": 3
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793461823,
-        "total": 75,
-        "window": 1
-      },
-      {
-        "phases": {
-          "8": 3
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793476041,
-        "total": 74,
-        "window": 1
-      },
-      {
-        "phases": {
-          "8": 4
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793482655,
-        "total": 148,
-        "window": 1
-      },
-      {
-        "phases": {
-          "8": 3
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793495064,
-        "total": 104,
-        "window": 1
-      },
-      {
-        "phases": {
-          "8": 4
-        },
-        "temp_bucket": 1,
-        "timestamp": 1793380981,
-        "total": 203,
-        "window": 1
-      },
-      {
-        "phases": {
-          "8": 5
-        },
-        "temp_bucket": 1,
-        "timestamp": 1793411948,
-        "total": 170,
-        "window": 1
-      },
-      {
-        "phases": {
           "8": 3
         },
         "temp_bucket": 1,
@@ -188,6 +97,99 @@
         "temp_bucket": 1,
         "timestamp": 1793540654,
         "total": 197,
+        "window": 1
+      },
+      {
+        "phases": {
+          "8": 3
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793461823,
+        "total": 75,
+        "window": 1
+      },
+      {
+        "phases": {
+          "8": 3
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793476041,
+        "total": 74,
+        "window": 1
+      },
+      {
+        "phases": {
+          "8": 4
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793482655,
+        "total": 148,
+        "window": 1
+      },
+      {
+        "phases": {
+          "8": 3
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793495064,
+        "total": 104,
+        "window": 1
+      },
+      {
+        "phases": {
+          "8": 3
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793561836,
+        "total": 44,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 48,
+          "8": 26
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793566118,
+        "total": 132,
+        "window": 1
+      },
+      {
+        "phases": {
+          "8": 3
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793567089,
+        "total": 69,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 10,
+          "8": 27
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793567502,
+        "total": 138,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 48,
+          "8": 26
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793571598,
+        "total": 130,
+        "window": 1
+      },
+      {
+        "phases": {
+          "8": 3
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793572236,
+        "total": 73,
         "window": 1
       }
     ]
@@ -235,7 +237,7 @@
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
           "product_name": "",
-          "remaining_weight_g": 289.30908203125,
+          "remaining_weight_g": 361.8948974609375,
           "spool_name": "Black",
           "spoolman_id": 201,
           "total_weight_g": 1000.0
@@ -354,7 +356,7 @@
             "temperature_sensor chamber_bottom",
             "temperature_sensor NightOwl-ERB"
           ],
-          "timestamp": "2026-11-01T02:06:25Z"
+          "timestamp": "2026-11-01T21:09:10Z"
         },
         "optional": [
           "fan_generic bed_fan",
@@ -758,7 +760,7 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.22036463022232056
+        "heat_rate": 0.19970358908176422
       },
       "heater_bed": {
         "heat_rate": 5.374317646026611
