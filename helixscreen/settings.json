@@ -55,15 +55,6 @@
     "entries": [
       {
         "phases": {
-          "8": 3
-        },
-        "temp_bucket": 1,
-        "timestamp": 1793540654,
-        "total": 197,
-        "window": 1
-      },
-      {
-        "phases": {
           "2": 47,
           "8": 26
         },
@@ -198,6 +189,16 @@
         "timestamp": 1793750032,
         "total": 166,
         "window": 1
+      },
+      {
+        "phases": {
+          "2": 26,
+          "8": 27
+        },
+        "temp_bucket": 2,
+        "timestamp": 1793764882,
+        "total": 179,
+        "window": 1
       }
     ]
   },
@@ -244,7 +245,7 @@
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
           "product_name": "",
-          "remaining_weight_g": 359.4284362792969,
+          "remaining_weight_g": 313.1383056640625,
           "spool_name": "Black",
           "spoolman_id": 201,
           "total_weight_g": 1000.0
@@ -767,10 +768,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.22507759928703308
+        "heat_rate": 0.17380954325199127
       },
       "heater_bed": {
-        "heat_rate": 5.490377902984619
+        "heat_rate": 5.4860382080078125
       }
     }
   },
