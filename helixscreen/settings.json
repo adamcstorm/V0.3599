@@ -27,12 +27,12 @@
   },
   "input": {
     "calibration": {
-      "a": 1.023868441581726,
-      "b": -0.00934186577796936,
-      "c": -11.051424026489258,
-      "d": -0.011130165308713913,
-      "e": 1.0147000551223755,
-      "f": -14.181215286254883,
+      "a": 1.0434973239898682,
+      "b": -0.02106141299009323,
+      "c": -29.22203254699707,
+      "d": -0.03231696039438248,
+      "e": 1.0208357572555542,
+      "f": -0.3767811059951782,
       "recheck_pending": false,
       "rotation": 180,
       "swap_axes": false,
@@ -53,16 +53,6 @@
   },
   "print_start_history": {
     "entries": [
-      {
-        "phases": {
-          "2": 48,
-          "8": 26
-        },
-        "temp_bucket": 1,
-        "timestamp": 1793628609,
-        "total": 253,
-        "window": 1
-      },
       {
         "phases": {
           "2": 27,
@@ -105,42 +95,12 @@
       },
       {
         "phases": {
-          "2": 48,
-          "8": 26
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793663607,
-        "total": 137,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 27,
-          "8": 145
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793667363,
-        "total": 220,
-        "window": 1
-      },
-      {
-        "phases": {
           "2": 26,
-          "8": 27
+          "8": 30
         },
-        "temp_bucket": 2,
-        "timestamp": 1793677032,
-        "total": 149,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 27,
-          "8": 27
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793679804,
-        "total": 107,
+        "temp_bucket": 1,
+        "timestamp": 1794092648,
+        "total": 251,
         "window": 1
       },
       {
@@ -199,6 +159,43 @@
         "timestamp": 1794074088,
         "total": 93,
         "window": 1
+      },
+      {
+        "phases": {
+          "8": 5
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794077438,
+        "total": 85,
+        "window": 1
+      },
+      {
+        "phases": {
+          "8": 3
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794090160,
+        "total": 80,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 26,
+          "8": 27
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794164343,
+        "total": 117,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 47
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794354393,
+        "total": 60,
+        "window": 1
       }
     ]
   },
@@ -245,7 +242,7 @@
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
           "product_name": "",
-          "remaining_weight_g": 310.9544982910156,
+          "remaining_weight_g": 214.65269470214844,
           "spool_name": "Black",
           "spoolman_id": 201,
           "total_weight_g": 1000.0
@@ -364,7 +361,7 @@
             "temperature_sensor chamber_bottom",
             "temperature_sensor NightOwl-ERB"
           ],
-          "timestamp": "2026-11-06T21:08:16Z"
+          "timestamp": "2026-11-10T23:29:46Z"
         },
         "optional": [
           "fan_generic bed_fan",
@@ -768,10 +765,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.19514286518096924
+        "heat_rate": 0.1428244262933731
       },
       "heater_bed": {
-        "heat_rate": 6.103547096252441
+        "heat_rate": 5.554022789001465
       }
     }
   },
