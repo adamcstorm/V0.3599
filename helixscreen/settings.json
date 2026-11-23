@@ -359,7 +359,7 @@
             "temperature_sensor chamber_bottom",
             "temperature_sensor NightOwl-ERB"
           ],
-          "timestamp": "2026-11-14T07:13:56Z"
+          "timestamp": "2026-11-23T15:54:32Z"
         },
         "optional": [
           "fan_generic bed_fan",
