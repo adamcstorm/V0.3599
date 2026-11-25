@@ -4,7 +4,7 @@
     "afc_upgrade_notice_shown": true
   },
   "brightness": 80,
-  "config_version": 23,
+  "config_version": 35,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -12,11 +12,17 @@
     "dim_sec": 0,
     "drm_device": "",
     "gcode_render_mode": 0,
+    "glass_probe": {
+      "board": "egl/4c/100bm/800x480/32bpp",
+      "frame_ms": 6.835649,
+      "passed": false,
+      "version": "1.1.0 (e82a1bb)"
+    },
     "gpu_3d_blocked": false,
     "gpu_blur_blocked": false,
     "rotate": 180,
     "rotation_probed": true,
-    "screensaver_type": 0,
+    "screensaver_type": "off",
     "sleep_sec": 1800,
     "sleep_while_printing": false,
     "timezone": "America/Chicago"
@@ -55,8 +61,8 @@
     "entries": [
       {
         "phases": {
-          "2": 26,
-          "8": 27
+          "CLEANING": 27,
+          "HOMING": 26
         },
         "temp_bucket": 1,
         "timestamp": 1793686665,
@@ -65,8 +71,8 @@
       },
       {
         "phases": {
-          "2": 26,
-          "8": 27
+          "CLEANING": 27,
+          "HOMING": 26
         },
         "temp_bucket": 1,
         "timestamp": 1793718769,
@@ -75,8 +81,8 @@
       },
       {
         "phases": {
-          "2": 26,
-          "8": 30
+          "CLEANING": 30,
+          "HOMING": 26
         },
         "temp_bucket": 1,
         "timestamp": 1793999612,
@@ -85,8 +91,8 @@
       },
       {
         "phases": {
-          "2": 26,
-          "8": 30
+          "CLEANING": 30,
+          "HOMING": 26
         },
         "temp_bucket": 1,
         "timestamp": 1794092648,
@@ -95,7 +101,7 @@
       },
       {
         "phases": {
-          "2": 763
+          "HOMING": 763
         },
         "temp_bucket": 1,
         "timestamp": 1794368922,
@@ -104,8 +110,8 @@
       },
       {
         "phases": {
-          "2": 26,
-          "8": 27
+          "CLEANING": 27,
+          "HOMING": 26
         },
         "temp_bucket": 2,
         "timestamp": 1793764882,
@@ -114,7 +120,7 @@
       },
       {
         "phases": {
-          "8": 4
+          "CLEANING": 4
         },
         "temp_bucket": 2,
         "timestamp": 1794000397,
@@ -123,8 +129,8 @@
       },
       {
         "phases": {
-          "2": 48,
-          "8": 27
+          "CLEANING": 27,
+          "HOMING": 48
         },
         "temp_bucket": 2,
         "timestamp": 1794003865,
@@ -133,7 +139,7 @@
       },
       {
         "phases": {
-          "8": 3
+          "CLEANING": 3
         },
         "temp_bucket": 2,
         "timestamp": 1794071587,
@@ -142,7 +148,7 @@
       },
       {
         "phases": {
-          "8": 3
+          "CLEANING": 3
         },
         "temp_bucket": 2,
         "timestamp": 1794074088,
@@ -151,7 +157,7 @@
       },
       {
         "phases": {
-          "8": 5
+          "CLEANING": 5
         },
         "temp_bucket": 2,
         "timestamp": 1794077438,
@@ -160,7 +166,7 @@
       },
       {
         "phases": {
-          "8": 3
+          "CLEANING": 3
         },
         "temp_bucket": 2,
         "timestamp": 1794090160,
@@ -169,8 +175,8 @@
       },
       {
         "phases": {
-          "2": 26,
-          "8": 27
+          "CLEANING": 27,
+          "HOMING": 26
         },
         "temp_bucket": 2,
         "timestamp": 1794164343,
@@ -179,7 +185,7 @@
       },
       {
         "phases": {
-          "2": 47
+          "HOMING": 47
         },
         "temp_bucket": 2,
         "timestamp": 1794354393,
@@ -188,7 +194,7 @@
       },
       {
         "phases": {
-          "2": 52
+          "HOMING": 52
         },
         "temp_bucket": 2,
         "timestamp": 1794373442,
@@ -202,6 +208,9 @@
       "ams": {
         "always_show_bypass_spool": false,
         "keep_spool_info_on_eject": false
+      },
+      "bed_occupancy": {
+        "last_occupied": "{\"filename\":\"sunlu-bambu-spool-adapters-pla-v47_ABS_58m9s.gcode\",\"job_id\":\"00080D\",\"object_height\":62.0,\"start_time\":1795550686.5005162}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -230,21 +239,7 @@
         "part": "fan"
       },
       "filament": {
-        "external_spool": {
-          "assigned": true,
-          "bed_temp": 0,
-          "brand": "Sunlu",
-          "catalog_id": "",
-          "color_rgb": 2500645,
-          "material": "ABS",
-          "nozzle_temp_max": 0,
-          "nozzle_temp_min": 0,
-          "product_name": "",
-          "remaining_weight_g": 0.0,
-          "spool_name": "Black",
-          "spoolman_id": 201,
-          "total_weight_g": 1000.0
-        }
+        "legacy_tool_import_done": true
       },
       "filament_sensors": {
         "master_enabled": true,
@@ -359,7 +354,7 @@
             "temperature_sensor chamber_bottom",
             "temperature_sensor NightOwl-ERB"
           ],
-          "timestamp": "2026-11-23T20:05:53Z"
+          "timestamp": "2026-11-25T17:57:05Z"
         },
         "optional": [
           "fan_generic bed_fan",
@@ -378,6 +373,11 @@
           "SET_NOZZLE_LEDS",
           "SET_TOP_LEDS"
         ],
+        "auto_state": {
+          "strips": [
+            "neopixel top"
+          ]
+        },
         "color_presets": [
           "#FFFFFF",
           "#FFD700",
@@ -392,6 +392,7 @@
         "last_color": "#FFFFFF",
         "last_white": 0.0,
         "led_on_at_start": false,
+        "light_button_pending": null,
         "macro_devices": [
           {
             "name": "Set Logo Leds",
@@ -433,11 +434,32 @@
         "startup_brightness": 80,
         "strip": "neopixel top"
       },
+      "maintenance": {
+        "meters": {
+          "filter": {
+            "interval_h": 200,
+            "notified": false,
+            "used_h": 0.0
+          },
+          "nozzle": {
+            "interval_h": 500,
+            "notified": false,
+            "used_h": 0.0
+          },
+          "rails": {
+            "interval_h": 300,
+            "notified": false,
+            "used_h": 0.0
+          }
+        },
+        "total_h": 0.0
+      },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
       "moonraker_port": 7125,
       "panel_widgets": {
         "home": {
+          "grid": "12x8",
           "main_page_index": 0,
           "next_page_id": 1,
           "pages": [
@@ -446,299 +468,107 @@
               "widgets": [
                 {
                   "col": 0,
-                  "colspan": 2,
+                  "colspan": 4,
                   "enabled": true,
                   "id": "printer_image",
                   "row": 0,
-                  "rowspan": 2
+                  "rowspan": 4
                 },
                 {
                   "col": 0,
-                  "colspan": 3,
+                  "colspan": 6,
                   "enabled": true,
                   "id": "print_status",
-                  "row": 2,
-                  "rowspan": 2
+                  "row": 4,
+                  "rowspan": 4
                 },
                 {
-                  "col": 2,
-                  "colspan": 4,
+                  "col": 4,
+                  "colspan": 8,
                   "enabled": false,
                   "id": "tips",
                   "row": 0,
-                  "rowspan": 2
+                  "rowspan": 4
                 },
                 {
-                  "col": 3,
-                  "colspan": 1,
+                  "col": 6,
+                  "colspan": 2,
                   "enabled": true,
                   "id": "temperature",
-                  "row": 2,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "shutdown",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "lock",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "power_device",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "network",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "firmware_restart",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "tool_switcher",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": 5,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "led",
-                  "row": 2,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "led_controls",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": 3,
-                  "colspan": 1,
-                  "enabled": true,
-                  "id": "fan_stack",
-                  "row": 3,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "fan",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "nozzle_temps",
-                  "row": -1,
+                  "row": 4,
                   "rowspan": 2
                 },
                 {
-                  "col": 5,
-                  "colspan": 1,
-                  "enabled": true,
-                  "id": "chamber_temperature",
-                  "row": 2,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "temp_stack",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "thermistor",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
+                  "col": 10,
                   "colspan": 2,
                   "enabled": false,
-                  "id": "temp_graph",
-                  "row": -1,
+                  "id": "led",
+                  "row": 4,
                   "rowspan": 2
                 },
                 {
-                  "col": 2,
-                  "colspan": 3,
+                  "col": 6,
+                  "colspan": 2,
+                  "enabled": true,
+                  "id": "fan_stack",
+                  "row": 6,
+                  "rowspan": 2
+                },
+                {
+                  "col": 10,
+                  "colspan": 2,
+                  "enabled": true,
+                  "id": "chamber_temperature",
+                  "row": 4,
+                  "rowspan": 2
+                },
+                {
+                  "col": 6,
+                  "colspan": 6,
                   "enabled": true,
                   "id": "preheat",
-                  "row": 1,
-                  "rowspan": 1
+                  "row": 2,
+                  "rowspan": 2
+                },
+                {
+                  "col": 8,
+                  "colspan": 2,
+                  "enabled": true,
+                  "id": "ams",
+                  "row": 6,
+                  "rowspan": 2
                 },
                 {
                   "col": 4,
-                  "colspan": 1,
-                  "enabled": true,
-                  "id": "ams",
-                  "row": 3,
-                  "rowspan": 1
-                },
-                {
-                  "col": 2,
                   "colspan": 2,
                   "enabled": true,
                   "id": "active_spool",
-                  "row": 0,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "filament",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "humidity",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "width_sensor",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "favorite_macro",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "macros",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "motion",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 2,
-                  "enabled": false,
-                  "id": "clock",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 2,
-                  "enabled": false,
-                  "id": "control_buttons",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 2,
-                  "enabled": false,
-                  "id": "job_queue",
-                  "row": -1,
+                  "row": 2,
                   "rowspan": 2
                 },
                 {
-                  "col": -1,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "clog_detection",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
+                  "col": 10,
                   "colspan": 2,
-                  "enabled": false,
-                  "id": "print_stats",
-                  "row": -1,
-                  "rowspan": 2
-                },
-                {
-                  "col": -1,
-                  "colspan": 1,
-                  "enabled": false,
-                  "id": "gcode_console",
-                  "row": -1,
-                  "rowspan": 1
-                },
-                {
-                  "col": -1,
-                  "colspan": 2,
-                  "enabled": false,
-                  "id": "camera",
-                  "row": -1,
-                  "rowspan": 2
-                },
-                {
-                  "col": 5,
-                  "colspan": 1,
                   "enabled": true,
                   "id": "notifications",
-                  "row": 3,
-                  "rowspan": 1
+                  "row": 6,
+                  "rowspan": 2
                 },
                 {
-                  "col": 4,
-                  "colspan": 1,
+                  "col": 8,
+                  "colspan": 2,
                   "enabled": true,
                   "id": "bed_temperature",
-                  "row": 2,
-                  "rowspan": 1
+                  "row": 4,
+                  "rowspan": 2
+                },
+                {
+                  "col": 10,
+                  "colspan": 2,
+                  "enabled": true,
+                  "id": "filament",
+                  "row": 0,
+                  "rowspan": 2
                 }
               ]
             }
@@ -774,13 +604,7 @@
     "completed": true,
     "last_seen_version": 1
   },
-  "ui": {
-    "cached_grid": {
-      "home": {
-        "rows": 4
-      }
-    }
-  },
+  "ui": {},
   "update": {
     "dismissed_version": "1.0.1"
   },
