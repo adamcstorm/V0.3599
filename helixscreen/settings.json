@@ -110,16 +110,6 @@
       },
       {
         "phases": {
-          "CLEANING": 27,
-          "HOMING": 48
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794003865,
-        "total": 138,
-        "window": 1
-      },
-      {
-        "phases": {
           "CLEANING": 3
         },
         "temp_bucket": 2,
@@ -201,6 +191,17 @@
         "timestamp": 1795844722,
         "total": 81,
         "window": 1
+      },
+      {
+        "heating": 227,
+        "phases": {
+          "HOMING": 2,
+          "SOAKING": 307
+        },
+        "temp_bucket": 2,
+        "timestamp": 1795849512,
+        "total": 317,
+        "window": 1
       }
     ]
   },
@@ -211,8 +212,8 @@
         "keep_spool_info_on_eject": false
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"sunlu-bambu-spool-adapters-pla-v47_ABS_58m9s.gcode\",\"job_id\":\"00080E\",\"object_height\":62.0,\"start_time\":1795840826.0121677}",
-        "outlines": "{\"filename\":\"sunlu-bambu-spool-adapters-pla-v47_ABS_58m9s.gcode\",\"objects\":[[[17.7,4.7],[100.1,4.7],[100.1,87.1],[17.7,87.1]]]}"
+        "last_occupied": "{\"filename\":\"sunlu-bambu-spool-adapters-pla-v47_ABS_25m49s.gcode\",\"job_id\":\"000810\",\"object_height\":68.0,\"start_time\":1795849195.6357007}",
+        "outlines": "{\"filename\":\"sunlu-bambu-spool-adapters-pla-v47_ABS_25m49s.gcode\",\"objects\":[[[26.0,12.7],[94.6,12.7],[94.6,78.6],[26.0,78.6]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -441,20 +442,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 1.2036111111112051
+            "used_h": 2.4644444444447355
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 1.2036111111112051
+            "used_h": 2.4644444444447355
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 1.2036111111112051
+            "used_h": 2.4644444444447355
           }
         },
-        "total_h": 1.2036111111112051
+        "total_h": 2.4644444444447355
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
