@@ -111,25 +111,6 @@
       {
         "phases": {
           "CLEANING": 27,
-          "HOMING": 26
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793764882,
-        "total": 179,
-        "window": 1
-      },
-      {
-        "phases": {
-          "CLEANING": 4
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794000397,
-        "total": 69,
-        "window": 1
-      },
-      {
-        "phases": {
-          "CLEANING": 27,
           "HOMING": 48
         },
         "temp_bucket": 2,
@@ -200,6 +181,26 @@
         "timestamp": 1794373442,
         "total": 64,
         "window": 1
+      },
+      {
+        "heating": 9,
+        "phases": {
+          "SOAKING": 27
+        },
+        "temp_bucket": 2,
+        "timestamp": 1795840867,
+        "total": 41,
+        "window": 1
+      },
+      {
+        "heating": 17,
+        "phases": {
+          "SOAKING": 71
+        },
+        "temp_bucket": 2,
+        "timestamp": 1795844722,
+        "total": 81,
+        "window": 1
       }
     ]
   },
@@ -210,7 +211,8 @@
         "keep_spool_info_on_eject": false
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"sunlu-bambu-spool-adapters-pla-v47_ABS_58m9s.gcode\",\"job_id\":\"00080D\",\"object_height\":62.0,\"start_time\":1795550686.5005162}"
+        "last_occupied": "{\"filename\":\"sunlu-bambu-spool-adapters-pla-v47_ABS_58m9s.gcode\",\"job_id\":\"00080E\",\"object_height\":62.0,\"start_time\":1795840826.0121677}",
+        "outlines": "{\"filename\":\"sunlu-bambu-spool-adapters-pla-v47_ABS_58m9s.gcode\",\"objects\":[[[17.7,4.7],[100.1,4.7],[100.1,87.1],[17.7,87.1]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -354,7 +356,7 @@
             "temperature_sensor chamber_bottom",
             "temperature_sensor NightOwl-ERB"
           ],
-          "timestamp": "2026-11-27T04:31:30Z"
+          "timestamp": "2026-11-28T04:07:21Z"
         },
         "optional": [
           "fan_generic bed_fan",
@@ -439,20 +441,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 0.0
+            "used_h": 1.2036111111112051
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 0.0
+            "used_h": 1.2036111111112051
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 0.0
+            "used_h": 1.2036111111112051
           }
         },
-        "total_h": 0.0
+        "total_h": 1.2036111111112051
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -593,7 +595,7 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.1428244262933731
+        "heat_rate": 0.12738840281963348
       },
       "heater_bed": {
         "heat_rate": 5.554022789001465
